@@ -1,13 +1,39 @@
 import './App.css';
-// font_color: #1F2739 ; background_color: #E9E8E8
+// font_color: #1F2739 ; background_color: #E9E8E8 fontFamily: "Helvetica, sans-serif" 
 function App() {
   return (
     <div className="Main">
-      <div className="" style={{ background: "none", height: "5%", width:"100%" }}> </div>
-      <div className="" style={{ background: "none", height: "92%", width:"100%" }}>
-        <div className="" style={{ background: "#1F2739", height: "100%", width: "4%", float: "left" }}></div>
+      <div className="" style={{ background: "", height: "5%", width:"100%" }}> </div>
+      <div className="" style={{ background: "none", height: "90%", width:"100%" }}>
+        <div className="" style={{ background: "", height: "100%", width: "3.6%", float: "left" }}>
 
-        <div className="" style={{ background: "none", height: "100%", width: "96%",float: "right" }}>
+          <div className="" style={{ background: "#1F2739",height:"72%", width:"100%", textAlign:"center", fontSize:"20pt" }}>
+            <button style={{ size:"20px",borderRadius:"30px", height:"30px", width:"30px", border:"2px solid #B4C1CB",background:"#1F2739" }}>
+              <span className="fa fa-home" style={{ color: "#B4C1CB"}}></span>
+            </button>
+          </div>
+
+          <div className="" style={{ background: "#1F2739",height:"28%", width:"100%", textAlign:"center", fontSize:"20pt"  }}>
+            <button style={{ size:"20px",borderRadius:"30px", height:"30px", width:"30px", border:"2px solid #B4C1CB",background:"#1F2739", }}>
+              <span className="fa fa-search" style={{ color: "#B4C1CB"}}></span>
+            </button>
+
+            <button style={{ size:"20px",borderRadius:"30px", height:"30px", width:"30px", border:"2px solid #B4C1CB",background:"#1F2739", }}>
+              <span className="fa fa-user" style={{ color: "#B4C1CB"}}></span>
+            </button>
+
+            <button style={{ size:"20px",borderRadius:"30px", height:"30px", width:"30px", border:"2px solid #B4C1CB",background:"#1F2739", }}>
+              <span className="fa fa-gears" style={{ color: "#B4C1CB"}}></span>
+            </button>
+
+            <button style={{ size:"20px",borderRadius:"30px", height:"30px", width:"30px", border:"2px solid #B4C1CB",background:"#1F2739", }}>
+              <span className="fa fa-power-off" style={{ color: "#B4C1CB"}}></span>
+            </button>
+          </div>
+
+        </div>
+
+        <div className="" style={{ background: "", height: "100%", width: "96.4%",float: "right" }}>
           <div className="" style={{ background: "none", height:"7%", width:"100%", borderBottom:"1.2px solid black" }}>
 
               <div className="" style={{ background:"#B4C1CB",width:"100%", height:"100%",lineHeight:"200%" }}>
@@ -69,20 +95,43 @@ function App() {
           </div>
           
 
-          <div className="" style={{ background: "", height:"19.9%", width:"75.6%", float:"left", lineHeight:"100%",borderBottom:"1px solid black" }}>
+          <div className="" style={{ background: "#E9E8E8", height:"19.9%", width:"75.5%", float:"left", lineHeight:"100%",borderRight:"1px solid black",borderBottom:"1px solid black" }}>
             
-            <div className="" style={{ background:"#E9E8E8", height:"100%", width:"26%", float:"left" }}>
+            <div className="" style={{ background:"", height:"100%", width:"26%", float:"left" }}>
+              
               <div className="" style={{ background:"", height:"20%", width:"100%" }}>
-                <div className="" style={{ background: "white", height:"60%",width:"92.4%", margin:"7.2% 0 0 5%"}}></div>
+                <div className="" style={{ background: "white", height:"60%",width:"92.4%", margin:"7.2% 0 0 5%"}}>
+
+                  <div className="" style={{  background:"#1F2739", height:"100%", width:"8%", float:"left", textAlign:"center",fontFamily: "Helvetica, sans-serif" }}>
+                    <span className="fa fa-check" style={{ color:"white" }}></span>
+                  </div>
+
+                  <div className="" style={{  background:"", height:"100%", width:"17%", float:"left", fontFamily: "Helvetica, sans-serif",fontSize:"9pt",fontWeight:"bold",textAlign:"center"  }}>PO</div>
+
+                  <div className="" style={{  background:"", height:"100%", width:"75%", float:"right", fontFamily: "Helvetica, sans-serif",fontSize:"9pt",fontWeight:"bold",textAlign:"center"  }}>RFHT2102-1088-FR</div>
+
+                </div>
               </div>
 
               <div className="" style={{ background:"", height:"20%", width:"100%"}}>
-                <div className="" style={{ background: "white", height:"63%",width:"92.4%", margin:"2.9% 0 0 5%"}}></div>
+
+                <div className="" style={{ background: "white", height:"63%",width:"92.4%", margin:"2.9% 0 0 5%"}}>
+                  <div className="" style={{  background:"#B4C1CB", height:"100%", width:"8%", float:"left", textAlign:"center",fontFamily: "Helvetica, sans-serif" }}>
+                    {/* <span className="fa fa-check" style={{ color:"white" }}></span> */}
+                  </div>
+
+                  <div className="" style={{  background:"", height:"100%", width:"17%", float:"left", fontFamily: "Helvetica, sans-serif",fontSize:"9pt",fontWeight:"bold",textAlign:"center"  }}>SO</div>
+
+                  <div className="" style={{  background:"", height:"100%", width:"75%", float:"right", fontFamily: "Helvetica, sans-serif",fontSize:"9pt",fontWeight:"bold",textAlign:"center"  }}>48264862-1</div>
+                </div>
+
               </div>
               
               <div className="" style={{ background:"", height:"42%", width:"100%" }}>
                 <div className="" style={{ background:"", height:"100%", width:"21%",float:"left" }}>
-                  <div className="" style={{ background:"#B4C1CB", height:"60%",width:"65%",margin: "12% 0 0 22%", }}></div>
+                  <div className="" style={{ background:"#B4C1CB", height:"60%",width:"65%",margin: "12% 0 0 22%",textAlign:"center",fontSize:"20pt" }}>
+                    <span className="fa fa-rotate-right" style={{ color:"black", size:"50pt",marginTop:"10%" }}></span>
+                  </div>
                 </div>
 
                 <div className="" style={{ background:"", height:"100%", width:"20%",float:"left" }}>
@@ -106,75 +155,107 @@ function App() {
 
             <div className="" style={{ background:"#E9E8E8", height:"100%", width:"25.5%", float:"left", fontFamily: "Helvetica, sans-serif", fontSize: "8pt", fontWeight: ""}}>
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"7.5% 0 0 3%", float:"left"}}>&#160;Item</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"7.5% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"7.5% 0 0 3%", float:"left"}}>&#160;&#160;Item</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"7.5% 0 0 3%", float:"right"}}></div>
               </div>
 
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;RBO</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;RBO</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
               
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;GPM</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;GPM</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
 
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;Quantily</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;Quantily</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
 
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;SKU</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;SKU</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
 
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;Up</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;Up</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
 
             </div>
 
             <div className="" style={{ background:"#E9E8E8", height:"100%", width:"21.5%", float:"left", fontFamily: "Helvetica, sans-serif", fontSize: "8pt", fontWeight: "" }}>
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"8.7% 0 0 3%", float:"left"}}>&#160;GPM</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"8.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"8.7% 0 0 3%", float:"left"}}>&#160;&#160;GPM</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"8.7% 0 0 3%", float:"right"}}></div>
               </div>
 
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;CRD</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;CRD</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
               
               <div className="" style={{ height:"11.5%",width:"94%"}}>
-                <div className="" style={{ background: "white", height:"100%",width:"24%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;PD</div>
-                <div className="" style={{ background: "white", height:"100%",width:"70%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float: "left"}}>&#160;&#160;PD</div>
+                <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
               </div>
             </div>
 
-            <div className="" style={{ background:"", height:"100%", width:"27%", float:"right" }}>
-              {/* code code code */}
-              <div className="" style={{ background:"#E9E8E8", height:"41%", width:"100%" }}>
+            <div className="" style={{ background:"", height:"100%", width:"27%", float:"right", borderBottom:" 1px solid" }}>
+              
+              <div className="" style={{ background:"#E9E8E8", height:"41%", width:"100%" ,borderRight:" 1px solid"}}>
 
                 <div className="" style={{ background:"", height:"100%", width:"27%", float:"left" }}>
-                  <button className="" style={{ border:"1.5px solid", borderRadius: "4px 4px", fontSize:"7pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"80%", marginLeft:"13%", marginTop:"22.5%", fontWeight:"bold" }}>REPRINT</button>
+                  <button className="" style={{ border:"0.5px solid", borderRadius: "5px 5px", fontSize:"7pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"95%", marginLeft:"13%", marginTop:"22.5%", fontWeight:"bold" }}>REPRINT</button>
                 </div>
 
                 <div className="" style={{ background:"", height:"100%", width:"73%", float:"right" }}>
-                  <button className="" style={{ background:"#1F2739",border:"0 solid", borderRadius: "4px 4px", fontSize:"10pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"90%", marginLeft:"1.5%", marginTop:"8%", fontWeight:"bold" }}><p2 style={{ color:"yellow" }}>SCAN IN</p2><p2 style={{ color: "white" }}>/</p2> <p2 style={{ color:"orange" }}>OUT</p2></button>
+                  <button className="" style={{ background:"#1F2739",border:"0 solid", borderRadius: "5px 5px", fontSize:"10pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"85%", marginLeft:"7%", marginTop:"8%", fontWeight:"bold" }}><p2 style={{ color:"yellow" }}>SCAN IN</p2><p2 style={{ color: "white" }}>/</p2> <p2 style={{ color:"orange" }}>OUT</p2></button>
                 </div>
 
               </div>
 
-              <div className="" style={{ background:"", height:"59%", width:"100%" }}></div>
-              {/* code code code */}
+              <div className="" style={{ background:"#E9E8E8", height:"59%", width:"100%",borderRight:" 1px solid", fontFamily: "Helvetica, sans-serif", fontSize: "8pt" }}>
+
+                <div className="" style={{ height:"17%",width:"94%"}}>
+                  <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"2.1% 0 0 3%", float:"left"}}>&#160;&#160;IN</div>
+                  <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"2.1% 0 0 3%", float:"right"}}></div>
+                </div>
+
+                <div className="" style={{ height:"17%",width:"94%"}}>
+                  <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float:"left"}}>&#160;&#160;Reprint IN</div>
+                  <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}></div>
+                </div>
+
+                <div className="" style={{ height:"17%",width:"94%"}}>
+                  <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float:"left"}}>&#160;&#160;OUT</div>
+                  <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}>
+                    <div style={{ background:"white", height:"100%", width:"90%", float:"left" }}></div> 
+                    <div style={{ background:"#1F2739", height:"100%", width:"10%", float:"right", fontSize:"10pt"}}>
+                      <span className="fa fa-times" style={{ color:"white", margin:"0 20% 0 18%"}}></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="" style={{ height:"17%",width:"94%"}}>
+                  <div className="" style={{ background: "white", height:"100%",width:"28%", margin:"0.7% 0 0 3%", float:"left"}}>&#160;&#160;Reprint OUT</div>
+                  <div className="" style={{ background: "white", height:"100%",width:"66%", margin:"0.7% 0 0 3%", float:"right"}}>
+                    <div style={{ background:"white", height:"100%", width:"90%", float:"left" }}></div> 
+                    <div style={{ background:"#1F2739", height:"100%", width:"10%", float:"right", fontSize:"10pt"}}>
+                      <span className="fa fa-times" style={{ color:"white", margin:"0 20% 0 18%"}}></span>
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+
             </div>
 
           </div>
           
-          <div className="" style={{ background: "none", height:"19.9%", width:"24.4%", float:"right", lineHeight:"100%",borderBottom:"1px solid black" }}></div>
+          <div className="" style={{ background: "#E9E8E8", height:"19.9%", width:"24.4%", float:"right", lineHeight:"100%",borderBottom:"1px solid black" }}></div>
           
           <div className="" style={{ background: "pink", height:"24%", width:"75.6%", float:"left", lineHeight:"100%",borderBottom:"1px solid black" }}></div>
           <div className="" style={{ background: "blue", height:"24%", width:"24.4%", float:"right", lineHeight:"100%",borderBottom:"1px solid black" }}></div>
