@@ -98,6 +98,7 @@ function App() {
               </div>
           </div>
           
+          {/* PO-SO */}
           <div className="" style={{ background: "#E9E8E8", height:"19.9%", width:"75.5%", float:"left", lineHeight:"100%",borderRight:"1.5px solid black",borderBottom:"1.5px solid black" }}>
             {/* PO - SO - Button */}
             <div className="" style={{ background:"", height:"100%", width:"26%", float:"left" }}>
@@ -207,7 +208,7 @@ function App() {
                 </div>
 
                 <div className="" style={{ background:"", height:"100%", width:"73%", float:"right" }}>
-                  <button className="" style={{ background:"#1F2739",border:"0 solid", borderRadius: "5px 5px", fontSize:"10pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"85%", marginLeft:"7%", marginTop:"8%", fontWeight:"bold" }}><p2 style={{ color:"yellow" }}>SCAN IN</p2><p2 style={{ color: "white" }}>/</p2> <p2 style={{ color:"orange" }}>OUT</p2></button>
+                  <button className="" style={{ background:"#1F2739",border:"0 solid", borderRadius: "5px 5px", fontSize:"10pt",fontFamily: "Helvetica, sans-serif",text:"center", height:"65%",width:"85%", marginLeft:"7%", marginTop:"8%", fontWeight:"bold" }}><p2 style={{ color:"yellow" }}>SCAN IN</p2><p2 style={{ color: "#F5F6F7" }}>/</p2> <p2 style={{ color:"orange" }}>OUT</p2></button>
                 </div>
 
               </div>
@@ -276,6 +277,127 @@ function App() {
             <div className="" style={{ background:" #B4C1CB ", height:"12%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"8pt", lineHeight:"100%"}}>
               <div style={{ lineHeight:"20px" }}>&#160;&#160;Production report</div>
             </div>
+            <div style={{ background:"", height:"88%", width:"100%" }}>
+              {/* component 1 */}
+              <div style={{ background:"#E9E8E8", height:"100%", width:"26.5%", float:"left", fontSize:"8pt" }}>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"6px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Good qty</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Bad qty</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>U11</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>U9</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Note</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+              </div>
+              
+              {/* component 2 */}
+              <div style={{ background:"#E9E8E8", height:"100%", width:"25.5%", float:"left",fontSize:"8pt" }}>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"6px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"219px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"24%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"76%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+
+              </div>
+              
+              {/* component 3 */}
+              <div style={{ background:"#E9E8E8", height:"100%", width:"34%", float:"left ",fontSize:"8pt" }}>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"6px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"295px",marginLeft:"10px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"20%",float:"left",textAlign:"center",lineHeight:"180%" }}></div>
+                    <div style={{ background:"white", height:"100%",width:"80%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+              </div>
+              
+              {/* component 4 */}
+              <div style={{ background:"#E9E8E8", height:"100%", width:"14%", float:"right " }}>
+                <div className="" style={{ background:"", height:"30%", width:"70%",textAlign:"center" }}>
+                  <button className="" style={{ background:"#1F2739",border:"0 solid", borderRadius: "5px 5px", fontSize:"9pt",fontFamily: "Helvetica, sans-serif",lineHeight:"20%", height:"33px",width:"95px", marginLeft:"15px", marginTop:"6px", fontWeight:"bold",color:"#F5F6F7" }}><span className="fa fa-rotate-right" style={{ color:"white",marginTop:"3%" }}></span> SAVE</button>
+                </div>
+
+                <div className="" style={{ background:"", height:"30%", width:"70%",textAlign:"center" }}>
+                  <button className="" style={{ background:"#F5F6F7",border:"1px solid black", borderRadius: "5px 5px", fontSize:"9pt",fontFamily: "Helvetica, sans-serif",lineHeight:"20%", height:"33px",width:"95px", marginLeft:"15px", marginTop:"3px", fontWeight:"bold",color:"black" }}><span className="fa fa-rotate-right" style={{ color:"black",marginTop:"3%" }}></span> REQUEST</button>
+                </div>
+              </div>
+            </div>
           </div>
           
           {/* Downtime */}
@@ -333,7 +455,7 @@ function App() {
                 </div>
 
                 <div style={{ background:"#F5F6F7", height:"45%", width:"96%", marginLeft:"3px", marginTop:"4%"  }}>
-                  <div style={{ background:"", height:"32%", width:"100%",textAlign:"center",fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"9pt",lineHeight:"270%" }}>Unscheduled</div>
+                  <div style={{ background:"", height:"32%", width:"100%",textAlign:"center",fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"9pt",lineHeight:"270%" }}>Scheduled</div>
                   <div style={{ background:"", height:"68%", width:"100%" }}>
                     <div style={{ color:"#6EB391",fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"25pt",lineHeight:"110%", marginLeft:"15px",float:"left" }}>120</div>
                     <div style={{ fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"9pt",float:"left", lineHeight:"400%"}}>min</div>
@@ -381,8 +503,120 @@ function App() {
 
           </div>
         
-          <div className="" style={{ background: "", height:"49%", width:"75.6%", float:"left" }}></div>
-          <div className="" style={{ background: "#f5f5f0", height:"49%", width:"24.4%", float:"right" }}></div>
+          {/* Data GridView */}
+          <div className="" style={{ background: "", height:"47.5%", width:"75.5%", float:"left",borderRight:"1.5px solid"}}>
+            <div style={{ background:"#B4C1CB", height:"43.3%", width:"100%" }}>
+              <div className="" style={{ background:" #B4C1CB ", height:"12.5%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"8pt", lineHeight:"100%"}}>
+                <div style={{ lineHeight:"20px" }}>&#160;&#160;Data grid View</div>
+              </div>
+              
+              <div className="" style={{ background:"#B4C1CB", height:"12%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"7pt", lineHeight:"100%",textAlign:"center"}}>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left" }}>ID</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Name</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>PO</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>SO</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>SKU</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Order qty</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Bad qty</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Setup time</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Runing time</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#F5F6F7",float:"left",marginLeft:"0.8px" }}>Label used</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"9.1%", background:"#F5F6F7",float:"right",marginLeft:"0.8px" }}>Label scrap</div>
+              </div>
+
+              <div style={{ height:"62%", width:"100%" }}>
+                <div className="" style={{ background:"#B4C1CB", height:"20%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:"7pt", lineHeight:"100%",textAlign:"center",marginTop:"0.5px"}}>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left" }}>R6767</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>Phạm Hồng Phúc</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>RFSB2101-1234</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>45612378-1</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>2</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>20,000</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>100</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>50</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>180</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>2000</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9.1%", background:"#E9E8E8",float:"right",marginLeft:"0.8px" }}>122</div>
+                </div>
+                <div className="" style={{ background:"#B4C1CB", height:"20%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:"7pt", lineHeight:"100%",textAlign:"center",marginTop:"1px"}}>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}>12</div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9%", background:"#E9E8E8",float:"left",marginLeft:"0.8px" }}></div>
+                  <div style={{ lineHeight:"20px",height:"100%",width:"9.1%", background:"#E9E8E8",float:"right",marginLeft:"0.8px" }}></div>
+                </div>
+              </div>
+
+              <div className="" style={{ background:"#E9E8E8", height:"12.1%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"7pt", lineHeight:"100%",textAlign:"center",marginTop:"1px", borderBottom:"1px solid black"}}>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left"}}>Total</div>
+                <div style={{ lineHeight:"20px",height:"100%",width:"27.29%", background:"#1F2739",float:"left",marginLeft:"" }}></div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.4px" }}>+</div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.8px" }}>+</div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.8px" }}>+</div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.8px" }}>+</div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.8px" }}>+</div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9%", background:"#1F2739",float:"left",marginLeft:"0.8px" }}></div>
+                <div style={{ color:"#E9E8E8",lineHeight:"20px",height:"100%",width:"9.1%", background:"#1F2739",float:"right",marginLeft:"1px" }}></div>
+              </div>
+            </div>
+            
+            {/* #B4C1CB */}
+            <div style={{ background:"#E9E8E8", height:"56.5%", width:"100%" }}>
+              <div className="" style={{ background:"black", height:"11%", width:"100%", fontFamily:"Helvetica, sans-serif", fontWeight:"bold", fontSize:"8pt", lineHeight:"100%", textAlign:"center",borderBottom:"1.5px solid #AFADAD"}}>
+                <div style={{ background:"#E9E8E8",lineHeight:"20px", height:"100%",width:"9%",float:"left",borderBottom:"1.5px solid #E9E8E8" }}>Traceability</div>
+                <div style={{ background:"#B4C1CB",lineHeight:"20px", height:"100%",width:"9%",float:"left",marginLeft:"0.8px" }}>Checklist</div>
+                <div style={{ background:"#B4C1CB",lineHeight:"20px", height:"100%",width:"9%",float:"left",marginLeft:"0.8px" }}>Locator</div>
+                <div style={{ background:"#B4C1CB",lineHeight:"20px", height:"100%",width:"9%",float:"left",marginLeft:"0.8px" }}>Quality</div>
+                <div style={{ background:"#B4C1CB",lineHeight:"20px", height:"100%",width:"63.65%",float:"right",marginLeft:"0.8px" }}></div>
+              </div>
+            
+              <div style={{ height:"88%",width:"100%" }}>
+                <div style={{ background:"#E9E8E8", height:"100%", width:"26.5%", float:"left", fontSize:"8pt" }}>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"6px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Ink type</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Lot No.</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Reprint GPM 1</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Reason</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>SKU</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Reprint GPM 2</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>Reason</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+                <div style={{ background:"", height:"15.5px",width:"222px",marginLeft:"16px",marginTop:"1px", fontFamily:"Helvetica, sans-serif", fontWeight:"", fontSize:""}}>
+                    <div style={{ background:"#F5F6F7", height:"100%",width:"27%",float:"left",textAlign:"center",lineHeight:"180%" }}>SKU</div>
+                    <div style={{ background:"white", height:"100%",width:"73%",float:"right",textAlign:"center",lineHeight:"180%"  }}></div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Null */}
+          <div className="" style={{ background: "#f5f5f0", height:"47.5%", width:"24.3%", float:"right" }}></div>
         </div>
       </div>
       <div className="" style={{ background: "white", height: "5%", width:"100%" }}> </div>
